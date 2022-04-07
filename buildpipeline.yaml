@@ -16,7 +16,7 @@ steps:
     backendAzureRmResourceGroupName: 'jonnychipz-infra'
     backendAzureRmStorageAccountName: jonnychipztstate
     backendAzureRmContainerName: tstate
-    backendAzureRmKey: '77Q4LUB5o9wRdbPYDt+0kGZP+L8Sj9E/FNXg7lZBQS5z3mLod5cyan4wA19CR1SmlqIRUFQfhuQrPVaGzNhjGw=='
+    backendAzureRmKey: 'WX0ehbq5d+/4RmaIYNZ7WMECBnfcJyFOkafp2GLJh7J7KtOP1eM5Y0DU/576IqpLYLT1T4wObbQ6w89r2J1zQQ=='
 
 - task: ms-devlabs.custom-terraform-tasks.custom-terraform-release-task.TerraformTaskV1@0
   displayName: 'Terraform : PLAN'
