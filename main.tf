@@ -23,7 +23,7 @@ provider "azurerm" {
   }
 }
 data "azurerm_client_config" "current" {}
-# Create our Resource Group - Jonnychipz-RG
+# Create our Resource Group - Jonnychipz-RG #
 resource "azurerm_resource_group" "rg" {
   name     = "jonnychipz-app01"
   location = "UK South"
@@ -44,7 +44,7 @@ resource "azurerm_subnet" "sn" {
 }
 # Create our Azure Storage Account - jonnychipzsa
 resource "azurerm_storage_account" "jonnychipzsa" {
-  name                     = "jonnychipzsa"
+  name                     = "jonnychipzsasyn"
   resource_group_name      = azurerm_resource_group.rg.name
   location                 = azurerm_resource_group.rg.location
   account_tier             = "Standard"
