@@ -3,7 +3,7 @@ trigger:
 
 pool:
   name: Azure Pipelines
-  vmImage: 'vs2017-win2016'
+  vmImage: 'win2019'
 
 steps:
 #- task: charleszipp.azure-pipelines-tasks-terraform.azure-pipelines-tasks-terraform-installer.TerraformInstaller@0
